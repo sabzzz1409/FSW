@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1200px){
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#tele{
+    color: white;
+    position: absolute;
+    left:300px;
+    font-size: 98px;
+}
+
+.playerOptions{
+    width: 150px;
+    height: 100%;
+    position: relative;
+}
+
+.playerOptions img{
+    height:30%;
+    width: 150px;
+    border-radius: 20px;
+    border: teal solid 2px;
+    margin:5px  ;
+}
+
+.playerOptions img:hover{
+    transform:scale(1.1);
+}
+
+.playerChoice{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    left: 220px;
+    top: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.playerChoice p{
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.playerChoice img{
+    height: inherit;
+    width: inherit;
+    border-radius: 20px;
+}
+
+
+.opponentChoice{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    right: 20px;
+    top: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.opponentChoice p{
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.opponentChoice img{
+    height: inherit;
+    width: inherit;
+    border-radius: 20px;
+}
+
+.display{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    right: 300px;
+    top: 180px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+#score{
+    margin-top: 10%;
+    font-size: 32px;
+}
+
+#turn{
+    font-size: 64px;
+}
+
+#result{
+    text-align: center;
+    color: white;
+    font-size: 128px;
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    left: 100px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    margin-left: 50px;
+}
+
+button:hover{
+    background-color: lime;
+    color: white;
+}
+
+.finale{
+    color: white;
+    display: grid;
+    text-align: center;
+    line-height: 100px;
+}
+
+.finale button{
+    margin-left: 47%;
+}
+}

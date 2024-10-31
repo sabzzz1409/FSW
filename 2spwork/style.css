@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#entry{
+    margin-left: 25%;
+    width: 200px;
+    height: 30px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+.fa-trash:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.fa-pen-to-square:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#displayData{
+    visibility: hidden;
+}

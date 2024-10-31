@@ -1,5 +1,6 @@
 {
   "name": "reactapp",
+  "homepage": "https://github.com/sabzzz1409/FSW"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
